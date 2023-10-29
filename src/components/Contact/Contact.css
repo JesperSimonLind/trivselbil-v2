@@ -1,0 +1,59 @@
+.contact__wrapper {
+  background-color: var(--color-darkPurple);
+  min-height: 100vh;
+}
+.contact__icons {
+  font-size: 40px;
+  color: var(--color-orange);
+}
+
+.contact__header {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-family: var(--font-alt);
+  font-size: 40px;
+  line-height: 45px;
+  color: white;
+}
+
+.contact__info {
+  text-align: center;
+  font-family: var(--font-base);
+  font-size: 18px;
+  line-height: 25px;
+  color: white;
+  margin-top: 8px;
+  font-weight: 400;
+  margin-top: 8px;
+}
+
+.contact__info_time {
+  text-align: left;
+  font-family: var(--font-base);
+  font-size: 18px;
+  line-height: 25px;
+  color: white;
+  margin-top: 8px;
+  font-weight: 400;
+}
+
+.contact__info_title {
+  text-align: center;
+  font-family: var(--font-base);
+  font-size: 24px;
+  line-height: 25px;
+  color: white;
+  font-weight: 600;
+  margin-top: 8px;
+}
+
+.open__box {
+  margin-top: 80px;
+}
+
+.map__box {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}

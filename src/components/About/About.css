@@ -1,0 +1,48 @@
+.about__wrapper {
+  background-color: var(--color-darkPurple);
+  min-height: 100vh;
+}
+
+.about__p {
+  text-align: left;
+  font-family: var(--font-base);
+  font-size: 18px;
+  color: white;
+  font-weight: 600;
+  line-height: 45px;
+}
+
+.about__padding {
+  padding: 4rem 2rem;
+}
+
+.about__text {
+  margin-bottom: 16px;
+}
+
+.about__header {
+  text-align: center;
+  font-family: var(--font-alt);
+  font-size: 40px;
+  line-height: 45px;
+  color: white;
+  margin-bottom: 80px;
+  text-decoration: underline;
+  text-decoration-color: var(--color-orange);
+  text-decoration-thickness: 1px;
+}
+
+.about__image {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+  .about__image img {
+    width: 250px;
+  }
+
+  .about__p {
+    text-align: center;
+  }
+}

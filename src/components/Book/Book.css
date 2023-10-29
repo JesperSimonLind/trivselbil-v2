@@ -1,0 +1,32 @@
+.book__header {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-family: var(--font-alt);
+  font-size: 40px;
+  text-decoration: underline;
+  text-decoration-color: var(--color-orange);
+  text-decoration-thickness: 1px;
+  line-height: 45px;
+  color: white;
+}
+
+.book__wrapper {
+  background-color: var(--color-darkpurple);
+  background-image: url("../../assets/book.png");
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 700px) {
+  .book__header {
+    font-size: 24px;
+    line-height: 45px;
+  }
+  .book__wrapper {
+    height: 200px;
+  }
+}
