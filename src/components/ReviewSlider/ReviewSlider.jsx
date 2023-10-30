@@ -85,6 +85,7 @@ const ReviewSlider = () => {
               fontSize: "20px",
               lineHeight: "25px",
               color: "white",
+              fontStyle: "italic",
             }}
           >
             {reviews[currentReviewIndex].text}

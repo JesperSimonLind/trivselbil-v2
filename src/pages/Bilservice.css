@@ -1,0 +1,9 @@
+.bilservice__p {
+  text-align: left;
+  font-family: var(--font-base);
+  font-size: 18px;
+  color: white;
+  font-weight: 600;
+  line-height: 45px;
+  margin-top: 12px;
+}
