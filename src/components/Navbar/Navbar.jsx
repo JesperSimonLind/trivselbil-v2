@@ -12,7 +12,7 @@ const Navbar = () => {
     <nav className="app__navbar">
       <a href="#hem">
         <div className="app__navbar-logo">
-          <img src={images.trivselLogo} alt="Nordanå Tvätt logotyp" />
+          <img src={images.logo} alt="Nordanå Tvätt logotyp" />
         </div>
       </a>
       <ul className="app__navbar-links">
